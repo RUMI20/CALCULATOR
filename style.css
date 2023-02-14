@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700;800&family=Itim&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #FFF4D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    border: 9px dotted #d5b3fa;
+    border-radius: 0.75rem;
+    background-color: #E3DFFD;
+    padding: 1rem;
+    width: 20rem;
+    height: max-content;
+
+}
+
+.display-section {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.display-section input {
+    border: none;
+    border-radius: .70rem;
+    background: #ECF2FF;
+    color: #7F669D;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: right;
+    cursor: none;
+    
+}
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.buttons-container button {
+    padding: 1.2rem;
+    width: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #ECF2FF;
+    color: #7F669D;
+    border-radius: .75rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.buttons-container button:hover{
+    border: 1px solid #7F669D;
+    background: transparent;
+}
